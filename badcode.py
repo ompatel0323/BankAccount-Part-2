@@ -39,7 +39,7 @@ class main_bad:
     choice = input("Enter a choice (1-4): ")
 
     # 3. VIOLATES CLEAN CODE & DRY: Using massive if-elif chains instead of match-case,
-    # and copy-pasting the exact same input validation 4 separate times.
+    # and copy and pasting the exact same input validation 4 separate times.
     if choice == '1':
         try:
             a = float(input("Enter the first number: "))
